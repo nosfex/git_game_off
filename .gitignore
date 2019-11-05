@@ -78,3 +78,7 @@ DerivedDataCache/*
 
 # DDC
 *.ddc
+ggo/Intermediate
+ggo/Saved/Config/CrashReportClient
+ggo/Saved
+ggo/Binaries

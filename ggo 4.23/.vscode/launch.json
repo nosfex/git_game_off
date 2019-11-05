@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ggo (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ggo Linux Debug Build",
+			"program": "/home/gerardo/projects/git_game_off/ggo 4.23/Binaries/Linux/ggo-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggo (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ggo Linux DebugGame Build",
+			"program": "/home/gerardo/projects/git_game_off/ggo 4.23/Binaries/Linux/ggo-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggo (Development)",
+			"request": "launch",
+			"preLaunchTask": "ggo Linux Development Build",
+			"program": "/home/gerardo/projects/git_game_off/ggo 4.23/Binaries/Linux/ggo",
+			"args": [
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggo (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ggo Linux Shipping Build",
+			"program": "/home/gerardo/projects/git_game_off/ggo 4.23/Binaries/Linux/ggo-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggo (Test)",
+			"request": "launch",
+			"preLaunchTask": "ggo Linux Test Build",
+			"program": "/home/gerardo/projects/git_game_off/ggo 4.23/Binaries/Linux/ggo-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggoEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ggoEditor Linux Debug Build",
+			"program": "/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggoEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ggoEditor Linux DebugGame Build",
+			"program": "/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "ggoEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ggoEditor Linux Development Build",
+			"program": "/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"
+			],
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+		}
+	]
+}

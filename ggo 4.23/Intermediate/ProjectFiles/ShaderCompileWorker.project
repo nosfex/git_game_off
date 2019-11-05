@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ShaderCompileWorker">
+  <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini" />
+    <VirtualDirectory Name="Mac">
+      <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Programs/ShaderCompileWorker/Config/Mac/MacEngine.ini" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp" />
+    <File Name="/home/gerardo/UE4/UnrealEngine-release/Engine/Source/Programs/ShaderCompileWorker/Private/XGEControlWorker.cpp" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Debug" />
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-DebugGame" />
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker" />
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Shipping" />
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Test" />
+      <General WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

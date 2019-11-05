@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ggoEditor">
+  <VirtualDirectory Name=" 4.23">
+    <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" />
+    <VirtualDirectory Name="Source">
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo.Target.cs" />
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggoEditor.Target.cs" />
+      <VirtualDirectory Name="ggo">
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggo.Build.cs" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggo.cpp" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggo.h" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggoCharacter.cpp" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggoCharacter.h" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggoGameMode.cpp" />
+        <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Source/ggo/ggoGameMode.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Config">
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Config/DefaultEditor.ini" />
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Config/DefaultEditorPerProjectUserSettings.ini" />
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Config/DefaultEngine.ini" />
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Config/DefaultGame.ini" />
+      <File Name="/home/gerardo/projects/git_game_off/ggo 4.23/Config/DefaultInput.ini" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ggoEditor Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ggoEditor Linux Debug -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ggoEditor Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ggoEditor Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ggoEditor Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ggoEditor Linux DebugGame -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ggoEditor Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ggoEditor Linux Development -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ggoEditor Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ggoEditor Linux Shipping -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject&quot; -game" WorkingDirectory="/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/gerardo/UE4/UnrealEngine-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ggoEditor Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ggoEditor Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject" -clean
+mono UnrealBuildTool.exe ggoEditor Linux Test -project="/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ggo Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Mac",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"IOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"HTML5",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"Linux",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Shipping",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggo TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggo TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggo",
+				"TVOS",
+				"Test",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Linux",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Debug",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"DebugGame",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ggoEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		},
+		{
+			"label": "ggoEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ggoEditor",
+				"Mac",
+				"Development",
+				"/home/gerardo/projects/git_game_off/ggo 4.23/ggo.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/gerardo/UE4/UnrealEngine-release"
+			}
+		}
+	]
+}

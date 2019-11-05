@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/gerardo/projects/git_game_off/ggo 4.23/.vscode": true,
+		"/home/gerardo/projects/git_game_off/ggo 4.23/Content": true,
+		"/home/gerardo/projects/git_game_off/ggo 4.23/Intermediate": true
+	}
+}

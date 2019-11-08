@@ -87,3 +87,6 @@ ggo 4.23/Saved/Config/CrashReportClient
 ggo 4.23/Saved
 ggo 4.23/Binaries
 ggo 4.23/Binaries
+ggo 4.23/Intermediate
+ggo 4.23/Intermediate/Build/Unused/ggo.log
+*.bin

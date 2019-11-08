@@ -2,6 +2,7 @@
 
 
 #include "CharacterLevelComponent.h"
+#include "GGODataLevelUp.h"
 
 // Sets default values for this component's properties
 UCharacterLevelComponent::UCharacterLevelComponent()
@@ -35,6 +36,18 @@ void UCharacterLevelComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 void UCharacterLevelComponent::AddExperience(int Experience)
 {
 	CurrentExperience += Experience;
+	UGGODataLevelUp* LevelData = LevelsData.Get();
+	int NettedExperience = CurrentExperience - LevelData->LevelsDescriptors[CurrentLevel].ExperienceRequired;
+	if (NettedExperience >= 0)
+	{
+		CurrentLevel++;
+		CurrentExperience = 0;
+		AddExperience(NettedExperience);
+	}
+}
 
-	if()
+int UCharacterLevelComponent::GetExperienceRequirement()
+{
+	UGGODataLevelUp* LevelData = LevelsData.Get();
+	return LevelData->LevelsDescriptors[CurrentLevel].ExperienceRequired;
 }

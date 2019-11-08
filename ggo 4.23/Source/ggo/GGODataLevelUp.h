@@ -6,12 +6,21 @@
 #include "Engine/DataAsset.h"
 #include "GGODataLevelUp.generated.h"
 
+USTRUCT(BlueprintType)
+struct FLevelUpDescriptor {
+	GENERATED_BODY()
+
+	int ExperienceRequired;
+};
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class GGO_API UGGODataLevelUp : public UDataAsset
 {
 	GENERATED_BODY()
-	
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FLevelUpDescriptor> LevelsDescriptors;
 };

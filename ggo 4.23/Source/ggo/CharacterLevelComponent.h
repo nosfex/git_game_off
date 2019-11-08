@@ -6,7 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "CharacterLevelComponent.generated.h"
 
-
+class UGGODataLevelUp;
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class GGO_API UCharacterLevelComponent : public UActorComponent
 {
@@ -32,5 +32,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AddExperience(int Experience);
 
-	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	TSoftObjectPtr<UGGODataLevelUp> LevelsData;
+
+	UFUNCTION(BlueprintCallable)
+	int GetExperienceRequirement();
 };

@@ -82,7 +82,8 @@ ggo/Intermediate
 ggo/Saved/Config/CrashReportClient
 ggo/Saved
 ggo/Binaries
-ggo 4.23/Intermediate/CachedAssetRegistry.bin
-ggo 4.23/Saved/AutoScreenshot.png
-ggo 4.23/Saved/Logs/ggo.log
+ggo 4.23/Intermediate
+ggo 4.23/Saved/Config/CrashReportClient
 ggo 4.23/Saved
+ggo 4.23/Binaries
+ggo 4.23/Binaries

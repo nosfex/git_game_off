@@ -43,6 +43,4 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
-	UFUNCTION(BlueprintCallable)
-	bool AddRuntimeComponent(TSubclassOf<UActorComponent> NewComponentClass, FName ComponentName);
 };

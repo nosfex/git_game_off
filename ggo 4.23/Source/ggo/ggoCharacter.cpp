@@ -75,17 +75,3 @@ void AggoCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVec
 {
 	StopJumping();
 }
-
-
-bool AggoCharacter::AddRuntimeComponent(TSubclassOf<UActorComponent> NewComponentClass, FName ComponentName)
-{
-	
-	auto NewComponent = NewObject< UActorComponent>(GetOuter(), NewComponentClass,ComponentName);
-	
-	if (NewComponent == nullptr)
-	{
-		return false;
-	}
-	NewComponent->RegisterComponent();
-	return true;
-}

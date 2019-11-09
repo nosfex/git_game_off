@@ -67,4 +67,20 @@
       <Filter>Source\ggo</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ggo\ComponentAttacher.h">
+      <Filter>Source\ggo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ggo\HealthComponent.h">
+      <Filter>Source\ggo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ggo\ComponentAttacher.cpp">
+      <Filter>Source\ggo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ggo\HealthComponent.cpp">
+      <Filter>Source\ggo</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

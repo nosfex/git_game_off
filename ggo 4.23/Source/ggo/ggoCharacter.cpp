@@ -75,3 +75,8 @@ void AggoCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVec
 {
 	StopJumping();
 }
+
+void AggoCharacter::OnHealthModified(int CurrentHealth)
+{
+	UE_LOG(LogTemp, Warning, TEXT("health: %i"), CurrentHealth);
+}

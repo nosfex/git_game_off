@@ -42,5 +42,6 @@ bool UComponentAttacher::AddRuntimeComponent(TSubclassOf<UActorComponent> NewCom
 	}
 	NewComponent->RegisterComponent();
 	GetOwner()->AddInstanceComponent(NewComponent);
+
 	return true;
 }

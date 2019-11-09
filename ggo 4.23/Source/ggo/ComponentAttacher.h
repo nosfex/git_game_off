@@ -25,6 +25,5 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	bool AddRuntimeComponent(TSubclassOf<UActorComponent> NewComponentClass, FName ComponentName);
-
+		bool AddRuntimeComponent(TSubclassOf<UActorComponent> NewComponentClass, FName ComponentName);
 };

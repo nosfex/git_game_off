@@ -2,6 +2,7 @@
 
 
 #include "HealthComponent.h"
+#include "ggoCharacter.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -20,7 +21,9 @@ void UHealthComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+
+	auto Character = Cast<AggoCharacter>(GetOwner());
+	HealthModifiedDelegate.AddDynamic(Character, &AggoCharacter::OnHealthModified);
 }
 
 

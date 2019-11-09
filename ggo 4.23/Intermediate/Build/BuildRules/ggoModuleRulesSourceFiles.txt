@@ -1,3 +1,0 @@
-E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Source\ggo\ggo.Build.cs
-E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Source\ggo.Target.cs
-E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Source\ggoEditor.Target.cs

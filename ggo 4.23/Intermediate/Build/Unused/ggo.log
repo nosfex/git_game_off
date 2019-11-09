@@ -1,26 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\docs\projects\unreal\game_off\git_game_off).
-  Creating makefile for ggoEditor (.uproject file is newer)
   Parsing headers for ggoEditor
     Running UnrealHeaderTool "E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\ggo.uproject" "E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Intermediate\Build\Win64\ggoEditor\Development\ggoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ggoEditor in 11.0457035 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 15 actions with 8 processes...
-    [1/15] GGODataLevelUp.cpp
-    [2/15] ggo.init.gen.cpp
-    [3/15] CharacterLevelComponent.gen.cpp
-    [4/15] GGODataLevelUp.gen.cpp
-    [5/15] ComponentAttacher.cpp
-    [6/15] CharacterLevelComponent.cpp
-    [7/15] ggo.cpp
-    [8/15] ComponentAttacher.gen.cpp
-    [9/15] ggoCharacter.gen.cpp
-    [10/15] ggoGameMode.cpp
-    [11/15] ggoGameMode.gen.cpp
-    [12/15] ggoCharacter.cpp
-    [13/15] UE4Editor-ggo.lib
-       Creating library E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Intermediate\Build\Win64\UE4Editor\Development\ggo\UE4Editor-ggo.lib and object E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Intermediate\Build\Win64\UE4Editor\Development\ggo\UE4Editor-ggo.exp
-    [14/15] UE4Editor-ggo.dll
-       Creating library E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Intermediate\Build\Win64\UE4Editor\Development\ggo\UE4Editor-ggo.suppressed.lib and object E:\docs\projects\unreal\game_off\git_game_off\ggo 4.23\Intermediate\Build\Win64\UE4Editor\Development\ggo\UE4Editor-ggo.suppressed.exp
-    [15/15] ggoEditor.target
-  Total time in Parallel executor: 26.95 seconds
-  Total execution time: 42.20 seconds
+  Reflection code generated for ggoEditor in 11.7830414 seconds
+  Target is up to date
+  Total execution time: 13.05 seconds
